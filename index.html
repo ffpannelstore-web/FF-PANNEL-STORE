@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="google-site-verification" content="dPX2IQE60Zjm5ye6ImGqsxoZMcm7BtphNXCKT6DtN5s" /> 
     <title>Pro FF Panel Store</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -266,7 +267,6 @@
         <section id="user-content-section" style="display:none;">
             <h2 id="dashboard-title">My Dashboard</h2>
 
-            <!-- My Requests Section -->
             <div id="my-requests" style="display:none; text-align:left; max-width:900px; margin:0 auto;">
                 <h3 style="color:var(--primary); margin-bottom:15px;">My Requests (Pending)</h3>
                 <div id="requests-list">
@@ -274,7 +274,6 @@
                 </div>
             </div>
 
-            <!-- My Purchases Section -->
             <div id="my-purchases" style="display:none; margin-top:20px; text-align:left;">
                 <h3 style="color:var(--primary); margin-bottom:15px; text-align: center;">Active Products / Purchase History</h3>
                 <div id="purchases-list">
@@ -345,7 +344,6 @@
         </div>
     </footer>
 
-    <!-- Small Modals (Login / Signup / Payment) -->
     <div id="loginModal" class="modal" aria-hidden="true">
         <div class="modal-box small-modal" role="dialog" aria-modal="true">
             <h3 style="color:var(--primary); text-align:center;">LOGIN</h3>
@@ -382,7 +380,6 @@
         </div>
     </div>
 
-    <!-- Admin Dashboard Modal -->
     <div id="adminDashboardModal" class="modal" aria-hidden="true">
         <div class="modal-box" style="max-width:960px;" role="dialog" aria-modal="true">
             <h2 style="color:var(--primary); text-align:center;">ADMIN DASHBOARD</h2>
@@ -395,15 +392,13 @@
                 <button class="btn" onclick="openAdminSection('subscription')">Subscription Request</button>
                 <button class="btn" onclick="openAdminSection('hacklink')">Hack Link Set</button>
                 <button class="btn" onclick="openAdminSection('social')">Social Media URL</button>
-                <!-- NEW: QR Code Image admin control -->
                 <button class="btn" onclick="openAdminSection('qr')">QR Code Image</button>
             </div>
 
             <hr style="border-color:#333; margin:10px 0;">
 
             <div id="admin-section-area" style="min-height:300px;">
-                <!-- Sections will be injected here -->
-            </div>
+                </div>
 
             <div style="text-align:center; margin-top:12px;">
                 <button style="background:none; border:none; color:#ccc; font-size:1rem;" onclick="closeAdminDashboard()">Close Dashboard</button>
